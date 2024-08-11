@@ -3,7 +3,7 @@
     "workbench.colorTheme": "Monokai",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.productIconTheme": "fluent-icons",
-    "workbench.sideBar.location": "left",
+    "workbench.sideBar.location": "right",
     "workbench.startupEditor": "none",
     "window.menuBarVisibility": "toggle",
     "window.newWindowDimensions": "inherit",
