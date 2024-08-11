@@ -15,7 +15,7 @@
     "editor.fontWeight": "bold",
     "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font Mono",
     "vscode_custom_css.imports": [
-        "https://gitea.bramkelchtermans.be/Bram/vscode-settings/raw/branch/main/vscode.css"
+        "https://raw.githubusercontent.com/BramKelchtermans/vscode-settings/main/vscode.css"
     ],
     // Editor Behavior
     "editor.formatOnSave": true,
