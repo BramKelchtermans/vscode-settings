@@ -3,7 +3,7 @@
     "workbench.colorTheme": "One Dark Pro Flat",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.productIconTheme": "fluent-icons",
-    "workbench.sideBar.location": "right",
+    "workbench.sideBar.location": "left",
     "workbench.startupEditor": "none",
     "window.menuBarVisibility": "toggle",
     "window.newWindowDimensions": "inherit",
@@ -64,13 +64,13 @@
     // Token Color Customizations
     "editor.tokenColorCustomizations": {
         "[One Dark Pro Flat]": {
-            "comments": "#75715E",
-            "keywords": "#F92672",
-            "functions": "#A6E22E",
-            "strings": "#E6DB74",
-            "variables": "#ffffff",
-            "numbers": "#AE81FF",
-            "types": "#66D9EF",
+            "comments": "#75715E", // Comments - Gray
+            "keywords": "#F92672", // Keywords - Pink
+            "functions": "#A6E22E", // Functions - Green
+            "strings": "#E6DB74", // Strings - Yellow
+            "variables": "#F8F8F2", // Variables - White
+            "numbers": "#AE81FF", // Numbers - Purple
+            "types": "#66D9EF", // Types - Cyan
             "textMateRules": [
                 {
                     "settings": {
@@ -92,14 +92,14 @@
                     "name": "Comment",
                     "scope": "comment",
                     "settings": {
-                        "foreground": "#88846f"
+                        "foreground": "#75715E" // Gray
                     }
                 },
                 {
                     "name": "String",
                     "scope": "string",
                     "settings": {
-                        "foreground": "#E6DB74"
+                        "foreground": "#E6DB74" // Yellow
                     }
                 },
                 {
@@ -109,7 +109,7 @@
                         "punctuation.section.embedded"
                     ],
                     "settings": {
-                        "foreground": "#F92672"
+                        "foreground": "#F92672" // Pink
                     }
                 },
                 {
@@ -118,28 +118,28 @@
                         "meta.template.expression"
                     ],
                     "settings": {
-                        "foreground": "#F8F8F2"
+                        "foreground": "#F8F8F2" // White
                     }
                 },
                 {
                     "name": "Number",
                     "scope": "constant.numeric",
                     "settings": {
-                        "foreground": "#AE81FF"
+                        "foreground": "#AE81FF" // Purple
                     }
                 },
                 {
                     "name": "Built-in constant",
                     "scope": "constant.language",
                     "settings": {
-                        "foreground": "#AE81FF"
+                        "foreground": "#AE81FF" // Purple
                     }
                 },
                 {
                     "name": "User-defined constant",
                     "scope": "constant.character, constant.other",
                     "settings": {
-                        "foreground": "#AE81FF"
+                        "foreground": "#AE81FF" // Purple
                     }
                 },
                 {
@@ -147,14 +147,14 @@
                     "scope": "variable",
                     "settings": {
                         "fontStyle": "",
-                        "foreground": "#F8F8F2"
+                        "foreground": "#F8F8F2" // White
                     }
                 },
                 {
                     "name": "Keyword",
                     "scope": "keyword",
                     "settings": {
-                        "foreground": "#F92672"
+                        "foreground": "#F92672" // Pink
                     }
                 },
                 {
@@ -162,7 +162,7 @@
                     "scope": "storage",
                     "settings": {
                         "fontStyle": "",
-                        "foreground": "#F92672"
+                        "foreground": "#F92672" // Pink
                     }
                 },
                 {
@@ -170,7 +170,7 @@
                     "scope": "storage.type",
                     "settings": {
                         "fontStyle": "italic",
-                        "foreground": "#66D9EF"
+                        "foreground": "#66D9EF" // Cyan
                     }
                 },
                 {
@@ -178,7 +178,7 @@
                     "scope": "entity.name.type, entity.name.class, entity.name.namespace, entity.name.scope-resolution",
                     "settings": {
                         "fontStyle": "underline",
-                        "foreground": "#A6E22E"
+                        "foreground": "#A6E22E" // Green
                     }
                 },
                 {
@@ -186,7 +186,7 @@
                     "scope": "entity.other.inherited-class",
                     "settings": {
                         "fontStyle": "italic underline",
-                        "foreground": "#A6E22E"
+                        "foreground": "#A6E22E" // Green
                     }
                 },
                 {
@@ -194,7 +194,7 @@
                     "scope": "entity.name.function",
                     "settings": {
                         "fontStyle": "",
-                        "foreground": "#A6E22E"
+                        "foreground": "#A6E22E" // Green
                     }
                 },
                 {
@@ -202,7 +202,7 @@
                     "scope": "variable.parameter",
                     "settings": {
                         "fontStyle": "italic",
-                        "foreground": "#FD971F"
+                        "foreground": "#FD971F" // Orange
                     }
                 },
                 {
@@ -210,7 +210,7 @@
                     "scope": "entity.name.tag",
                     "settings": {
                         "fontStyle": "",
-                        "foreground": "#F92672"
+                        "foreground": "#F92672" // Pink
                     }
                 },
                 {
@@ -218,7 +218,7 @@
                     "scope": "entity.other.attribute-name",
                     "settings": {
                         "fontStyle": "",
-                        "foreground": "#A6E22E"
+                        "foreground": "#A6E22E" // Green
                     }
                 },
                 {
@@ -226,7 +226,7 @@
                     "scope": "support.function",
                     "settings": {
                         "fontStyle": "",
-                        "foreground": "#66D9EF"
+                        "foreground": "#66D9EF" // Cyan
                     }
                 },
                 {
@@ -234,7 +234,7 @@
                     "scope": "support.constant",
                     "settings": {
                         "fontStyle": "",
-                        "foreground": "#66D9EF"
+                        "foreground": "#66D9EF" // Cyan
                     }
                 },
                 {
@@ -242,7 +242,7 @@
                     "scope": "support.type, support.class",
                     "settings": {
                         "fontStyle": "italic",
-                        "foreground": "#66D9EF"
+                        "foreground": "#66D9EF" // Cyan
                     }
                 },
                 {
@@ -257,74 +257,142 @@
                     "scope": "invalid",
                     "settings": {
                         "fontStyle": "",
-                        "foreground": "#F44747"
+                        "foreground": "#F44747" // Red
                     }
                 },
                 {
                     "name": "Invalid deprecated",
                     "scope": "invalid.deprecated",
                     "settings": {
-                        "foreground": "#F44747"
+                        "foreground": "#F44747" // Red
                     }
                 },
                 {
                     "name": "JSON String",
                     "scope": "meta.structure.dictionary.json string.quoted.double.json",
                     "settings": {
-                        "foreground": "#CFCFC2"
+                        "foreground": "#E6DB74" // Yellow
                     }
                 },
                 {
                     "name": "diff.header",
                     "scope": "meta.diff, meta.diff.header",
                     "settings": {
-                        "foreground": "#75715E"
+                        "foreground": "#75715E" // Gray
                     }
                 },
                 {
                     "name": "diff.deleted",
                     "scope": "markup.deleted",
                     "settings": {
-                        "foreground": "#F92672"
+                        "foreground": "#F92672" // Pink
                     }
                 },
                 {
                     "name": "diff.inserted",
                     "scope": "markup.inserted",
                     "settings": {
-                        "foreground": "#A6E22E"
+                        "foreground": "#A6E22E" // Green
                     }
                 },
                 {
                     "name": "diff.changed",
                     "scope": "markup.changed",
                     "settings": {
-                        "foreground": "#E6DB74"
+                        "foreground": "#E6DB74" // Yellow
                     }
                 },
                 {
-                    "scope": "constant.numeric.line-number.find-in-files - match",
+                    "name": "brackethighlighter.tag",
+                    "scope": "brackethighlighter.tag",
                     "settings": {
-                        "foreground": "#AE81FFA0"
+                        "foreground": "#F92672" // Pink
                     }
                 },
                 {
-                    "scope": "entity.name.filename.find-in-files",
+                    "name": "brackethighlighter.curly",
+                    "scope": "brackethighlighter.curly",
                     "settings": {
-                        "foreground": "#E6DB74"
+                        "foreground": "#FD971F" // Orange
                     }
                 },
                 {
-                    "name": "Markup Quote",
-                    "scope": "markup.quote",
+                    "name": "brackethighlighter.round",
+                    "scope": "brackethighlighter.round",
                     "settings": {
-                        "foreground": "#75715E"
+                        "foreground": "#A6E22E" // Green
                     }
                 },
                 {
-                    "scope": "meta.image.inline.markdown",
+                    "name": "brackethighlighter.square",
+                    "scope": "brackethighlighter.square",
                     "settings": {
-                        "foreground": "#75715E"
+                        "foreground": "#66D9EF" // Cyan
+                    }
+                },
+                {
+                    "name": "brackethighlighter.angle",
+                    "scope": "brackethighlighter.angle",
+                    "settings": {
+                        "foreground": "#F92672" // Pink
+                    }
+                },
+                {
+                    "name": "brackethighlighter.quote",
+                    "scope": "brackethighlighter.quote",
+                    "settings": {
+                        "foreground": "#75715E" // Gray
+                    }
+                },
+                {
+                    "name": "brackethighlighter.unmatched",
+                    "scope": "brackethighlighter.unmatched",
+                    "settings": {
+                        "foreground": "#F44747" // Red
+                    }
+                },
+                {
+                    "name": "CSS property name",
+                    "scope": [
+                        "support.type.property-name.css",
+                        "support.type.property-name.scss",
+                        "support.type.property-name.less"
+                    ],
+                    "settings": {
+                        "foreground": "#FD971F" // Orange
+                    }
+                },
+                {
+                    "name": "HTML attribute name",
+                    "scope": "entity.other.attribute-name.html",
+                    "settings": {
+                        "foreground": "#A6E22E" // Green
+                    }
+                },
+                {
+                    "name": "Invalid illegal",
+                    "scope": "invalid.illegal",
+                    "settings": {
+                        "foreground": "#F44747", // Red
+                        "background": "#1E0010"
+                    }
+                },
+                {
+                    "name": "JSON keys",
+                    "scope": [
+                        "support.type.property-name.json.comments",
+                        "punctuation.support.type.property-name"
+                    ],
+                    "settings": {
+                        "foreground": "#66D9EF"
+                    }
+                },
+                {
+                    "name": "Invalid deprecated",
+                    "scope": "invalid.deprecated",
+                    "settings": {
+                        "foreground": "#F44747", // Red
+                        "background": "#1E0010"
                     }
                 }
             ]
@@ -335,13 +403,15 @@
         "[One Dark Pro Flat]": {
             "enabled": true,
             "rules": {
-                "variable": "#F8F8F2",
-                "keyword": {
-                    "foreground": "#F92672"
-                },
-                "class": {
-                    "foreground": "#A6E22E"
-                }
+                "variable": "#F8F8F2", // White
+                "keyword": "#F92672", // Pink
+                "class": "#A6E22E", // Green
+                "function": "#A6E22E", // Green
+                "string": "#E6DB74", // Yellow
+                "comment": "#75715E", // Gray
+                "parameter": "#FD971F", // Orange
+                "number": "#AE81FF", // Purple
+                "type": "#66D9EF" // Cyan
             }
         }
     }
